@@ -1,0 +1,21 @@
+version: '3'
+
+services:
+  task_difficulty_server:
+    build: .
+    ports:
+      - "5557:5557"
+    volumes:
+      - ./log:/app/log
+    restart: unless-stopped
+    labels:
+      - traefik.http.routers.taskdifficulty.rule=Host(`taskdifficulty.robert-spang.de`)
+      - traefik.http.routers.taskdifficulty.tls=true
+      - traefik.http.routers.taskdifficulty.tls.certresolver=lets-encrypt
+      - traefik.port=5557
+    networks:
+      - web
+
+networks:
+  web:
+    external: true
