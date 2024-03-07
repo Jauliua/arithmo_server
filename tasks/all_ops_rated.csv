@@ -294,7 +294,7 @@ first_number,second_number,result,difficulty,operation
 205,5,1025,2,multiplication
 51,5,255,2,multiplication
 207,3,621,2,multiplication
-204,4,828,2,multiplication
+204,4,816,2,multiplication
 220,4,880,2,multiplication
 301,9,2709,2,multiplication
 905,2,1810,2,multiplication
@@ -428,7 +428,7 @@ first_number,second_number,result,difficulty,operation
 53,42,2226,6,multiplication
 51,84,4284,6,multiplication
 76,21,1596,6,multiplication
-62,53,2288,6,multiplication
+62,53,3286,6,multiplication
 42,45,1890,6,multiplication
 82,52,4264,6,multiplication
 764,8,6112,7,multiplication
@@ -771,7 +771,7 @@ first_number,second_number,result,difficulty,operation
 4371,361,4010,2,subtraction
 235,9,226,2,subtraction
 76,9,67,2,subtraction
-5846,1331,4515,2,subtraction
+5846,1331,4515,3,subtraction
 54,8,46,2,subtraction
 640,90,550,2,subtraction
 830,70,760,2,subtraction
